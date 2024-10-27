@@ -10,7 +10,7 @@ class PublicAPIsService
 {
     protected const BASE_URL = 'https://web.archive.org/web/20240403172734if_/https://api.publicapis.org/';
 
-    protected const ENTRIES_JSON_FILE_PATH = 'app/entries.json';
+    protected const ENTRIES_JSON_FILE_PATH = 'entries.json';
 
     public function __construct()
     {
